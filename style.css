@@ -1,11 +1,8 @@
 .menu-bar {
   background-color: #C8E8DD;
   font-family: Raleway;
-  padding-top: 10px;
   position: fixed;
-  top: 0;
   width: 100%;
-  z-index: 9;
 }
 
 li {
