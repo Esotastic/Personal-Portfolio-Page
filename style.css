@@ -1,3 +1,7 @@
+body, html {
+    height: 100%;
+}
+
 .topnav {
     background-color: #648FFF;
     overflow: hidden;
@@ -56,10 +60,15 @@
 }
 
 /*Empty div to allow space between the top bar and the splash page */
-.spacer
-{
-    width: 100%;
-    height: 60px;
+
+
+.bg {
+    background-image: url("file:///C:/Users/Chris/Downloads/pexels-photo-355887.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 /*Splash page edits */
@@ -69,6 +78,31 @@
   text-align: center;
 }
 
+.splash-text{
+  width:50%;
+  display: block;
+  padding-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+.splash-inner-words {
+  padding-top: 20px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+
+}
+
+.splash-line{
+  height:1px;
+  border-bottom:1px solid white;
+  width: 100%;
+}
+
+/*Misc edits for now */
 .section-header {
   text-align: center;
 }
@@ -79,26 +113,4 @@
 
 .portfolio{
   background-color: #748FC3;
-}
-
-.splash-text{
-  width:50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto
-}
-
-.splash-inner-words {
-  padding-top: 20px;
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-
-}
-
-.splash-line{
-  height:1px;
-  background:#717171;
-  border-bottom:1px solid #313030;
-  width: 100%;
 }
