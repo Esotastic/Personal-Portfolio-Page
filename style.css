@@ -104,12 +104,22 @@ body, html {
 
 /*Misc edits for now */
 .section-header {
+  font-family: 'Passion One', sans-serif;
   text-align: center;
 }
 
+
+/*About Section*/
 .about{
   background-color: #748F8C;
 }
+
+.about-body{
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+
 
 .portfolio{
   background-color: #748FC3;
