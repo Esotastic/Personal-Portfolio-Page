@@ -2,8 +2,9 @@ body, html {
     height: 100%;
 }
 
+/*Naviation bar styling and responsiveness code.*/
 .topnav {
-    background-color: #648FFF;
+    /*background-color: #648FFF;*/
     overflow: hidden;
     position: fixed;
     width: 100%;
@@ -56,11 +57,9 @@ body, html {
     float: none;
     display: block;
     text-align: left;
+    color: black;
   }
 }
-
-/*Empty div to allow space between the top bar and the splash page */
-
 
 .bg {
     background-image: url("file:///C:/Users/Chris/Portfolio%20Page/images/pexels-photo-633719.jpeg");
@@ -75,13 +74,13 @@ body, html {
 .splash-name{
   font-family: 'Passion One', sans-serif;
   font-size: 100px;
-  text-align: center;
 }
 
 .splash-text{
+  text-align: center;
   width:50%;
   display: block;
-  padding-top: 10%;
+  padding-top: 15%;
   margin-left: auto;
   margin-right: auto;
   color: white;
@@ -91,7 +90,6 @@ body, html {
   padding-top: 20px;
   display: inline-block;
   width: 100%;
-  text-align: center;
   font-size: 25px;
 
 }
@@ -112,15 +110,19 @@ body, html {
 /*About Section*/
 .about{
   background-color: #748F8C;
+
 }
 
 .about-body{
-  padding-left: 10%;
-  padding-right: 10%;
-
+  padding: 0 10% 5% 10%;
+  margin-bottom: 0;
 }
 
 
 .portfolio{
   background-color: #748FC3;
+}
+
+.resume-details{
+    padding: 0 10% 5% 10%;
 }
