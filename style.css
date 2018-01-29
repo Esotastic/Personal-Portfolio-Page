@@ -74,8 +74,8 @@ body, html {
 
 /*Splash page edits */
 .splash-name{
-  font-family: 'Passion One', sans-serif;
-  font-size: 100px;
+  font-family: 'Cormorant Garamond', sans-serif;
+  font-size: 600%;
 }
 
 .splash-text{
@@ -87,6 +87,7 @@ body, html {
   margin-right: auto;
   color: white;
 }
+
 
 .splash-inner-words {
   padding-top: 20px;
@@ -104,14 +105,17 @@ body, html {
 
 /*Misc edits for now */
 .section-header {
-  font-family: 'Passion One', sans-serif;
+  font-family: 'Cormorant Garamond', sans-serif;
   text-align: center;
+  font-size: 500%;
 }
 
 
 /*About Section*/
 .about{
   background-color: #748F8C;
+  height: 100%;
+
 
 }
 
@@ -123,6 +127,12 @@ body, html {
 
 .portfolio{
   background-color: #748FC3;
+  height: 100%;
+}
+
+.resume{
+  height: 100%;
+  background-color: #91E85D;
 }
 
 .resume-details{
