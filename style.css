@@ -1,5 +1,6 @@
 body, html {
     height: 100%;
+    margin: 0;
 }
 
 /*Naviation bar styling and responsiveness code.*/
@@ -17,7 +18,7 @@ body, html {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 200%;
     transition: all .2s ease-in-out;
 }
 
@@ -122,6 +123,8 @@ body, html {
 .about-body{
   padding: 0 10% 5% 10%;
   margin-bottom: 0;
+  font-weight: bold;
+  font-size: 200%;
 }
 
 
