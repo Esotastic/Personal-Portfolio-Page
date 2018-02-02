@@ -1,6 +1,7 @@
 body, html {
     height: 100%;
     margin: 0;
+    font-family: "Cabin" sans-serif;
 }
 
 /*Naviation bar styling and responsiveness code.*/
@@ -75,11 +76,12 @@ body, html {
 
 /*Splash page edits */
 .splash-name{
-  font-family: 'Cormorant Garamond', sans-serif;
+  font-family: 'Cabin', sans-serif;
   font-size: 600%;
 }
 
 .splash-text{
+  font-family: 'Cabin', sans-serif;
   text-align: center;
   width:50%;
   display: block;
@@ -106,7 +108,7 @@ body, html {
 
 /*Misc edits for now */
 .section-header {
-  font-family: 'Cormorant Garamond', sans-serif;
+  font-family: 'Cabin', sans-serif;
   text-align: center;
   font-size: 500%;
 }
@@ -116,7 +118,7 @@ body, html {
 .about{
   background-color: #748F8C;
   height: 100%;
-
+font-family: 'Cabin', sans-serif;
 
 }
 
