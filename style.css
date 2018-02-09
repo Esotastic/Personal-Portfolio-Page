@@ -1,9 +1,11 @@
 body, html {
     height: 100%;
     margin: 0;
-    font-family: "Cabin" sans-serif;
+    font-family: "Cabin", sans-serif;
     /*background-color: black;*/
     color: white;
+    -webkit-font-smoothing: antialiased !important;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 }
 
 .bg-gradient {
